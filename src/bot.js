@@ -130,4 +130,4 @@ client.on('message', message => { // Discord message
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.token);
