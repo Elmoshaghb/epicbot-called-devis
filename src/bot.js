@@ -113,7 +113,7 @@ client.on('message', message => { // Discord message
 
             // BOT USABLE CMDS END
 
-        } else if (!message.content.startsWith(prefix) && message.channel.id === ID) { // AI BOT START
+        } else if (!message.content.startsWith(prefix) && (message.channel.id === ID || message.channel.id === '816772471066984498')) { // AI BOT START
         
             if (message.content.includes('who') && message.content.includes('made') && message.content.includes('you')) {
                 message.channel.send('My Creative creator is Sconder <3');
